@@ -1,0 +1,282 @@
+html,
+body {
+  height: 100%;
+  padding-top:50px;
+}
+
+.row {
+  margin-left:0px;
+  margin-right:0px;
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  /* Negative indent footer by its height */
+  margin: 0 auto -80px;
+  /* Pad bottom by footer height */
+  padding: 0 0 60px;
+}
+
+/* Set the fixed height of the footer here */
+#footer {
+  height: 80px;
+  background-color: #f5f5f5;
+  margin-top:50px;
+  padding-top:20px;
+  padding-bottom:20px;
+}
+
+header {
+  	height:100%;
+	min-height:540px;
+}
+
+#wrap > .container {
+  padding: 60px 15px 0;
+}
+.container .credit {
+  margin: 20px 0;
+}
+
+#footer {
+  background-color:#414141;
+}
+
+#footer a {
+  color:#efefef;
+}
+
+#topNav {
+	z-index:-1;
+}
+
+#nav {
+  width: 100%;
+  position:static;
+  top:-32px;
+}
+
+#nav.affix {
+   position: fixed;
+   top: 0;
+   z-index:10;
+   -webkit-transition: all .6s ease-in-out;
+}
+
+#footer > .container {
+  
+}
+
+@media (min-width: 767px) {
+  .navbar-nav.nav-justified > li{
+      float:none;
+  }
+}
+  
+.navbar-nav {
+  margin: 1px 1px; 
+}  
+  
+/* customize nav style */
+.navbar-custom {
+    background-color: #0b78ff;
+	  font-weight:700;
+    border-width:0;
+}
+.navbar-custom  .navbar-nav>li>a {
+	color: #FFF;
+}
+.navbar-custom  .dropdown-menu li>a:hover {
+	color: #eee;
+}
+.navbar-custom  .navbar-nav li>a:hover, .navbar-nav li .open, .navbar-custom .navbar-nav .active a  {
+	background-color: #000;
+}
+.navbar-custom .navbar-nav>.dropdown>a .caret {
+	border-top-color: #999;
+	border-bottom-color: #999;
+}
+
+.navbar-collapse.in { /*3.0.2 bug workaround*/
+    overflow-y: visible;
+}
+
+.navbar-toggle {
+	outline:0;
+}
+
+.divider {
+	height:50px;
+}
+
+.panel {
+	border-width:0;
+}
+
+@media (max-width: 768px) {
+	header {
+	
+	}
+
+  .masthead img {
+    display: none;
+  }
+}
+
+.scroll-top {
+   position:fixed;
+   bottom:0;
+   right:6%;
+   z-index:100;
+   background: #f2f3f2;
+   font-size:24px;
+   border-top-left-radius:3px;
+   border-top-right-radius:3px;
+}
+.scroll-top a:link,.scroll-top a:visited {
+  color:#222;
+} 
+ 
+section {
+  color: #ffffff;
+  min-height: 400px;
+  height: auto !important;
+  height: 100%;
+  padding-top:100px;
+  width: 100%;
+}
+
+
+/* Masthead Customization */
+
+.masthead {
+  background-color: white;
+}
+
+.masthead img {
+  height: 100%;
+  width: 100%;
+  max-height: 340px;
+  max-width: 255px;
+  border-radius: 20px;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+
+h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 5em;
+  text-shadow: 1px 1px 0px #ededed, 4px 4px 0px rgba(0,0,0,0.15);
+  padding-bottom: 20px;
+}
+strong {
+  text-decoration: underline;
+}
+ul {
+  list-style: none;
+}
+li {
+  font-family: 'Rancho', Helvetica, sans-serif;
+  color: #2b2b2b;
+  font-size: 2em;
+}
+
+.lead {
+  font-size: 2em;
+}
+
+
+
+.thumbnail {
+  max-height: 240px;
+  max-width: 300px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#reddit {
+  display: inline-block;
+}
+
+.thumbnail:hover {
+    opacity: 0.7;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+.aside {
+  background-color: #99ccff;
+  margin-top: 30px;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.bg-1 {
+  background: url('../images/coding.png') no-repeat center center fixed;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-width: 100%;
+  height: 50px;
+}
+
+.text-center {
+  font-family: 'Rancho', cursive;
+}
+
+.bg-3 {
+  background: url('../images/coding.png') center fixed;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  /*background-repeat: no-repeat;*/ 
+  /*background-width: 100%;*/
+  /*background-height: 100px;*/
+  /*width: 100%;*/
+}
+
+.panel-body { 
+color: black;
+font-family: 'Pacifico', cursive;
+background-color: red;
+}
+
+
+
+h2 {
+  font-family: 'Pacifico', cursive;
+  /*display: block;*/
+  margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.bg-4 {
+  background: url('../images/coding.jpg') center fixed;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.panel-thumbnail img {
+   margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    width: 400px;
+}
+
+.panel-thumbnail:hover {
+    opacity: 0.7;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+.fa {
+  color: #99ccff;
+  display: inline-block;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.glyphicon {
+  color:black;
+}
+
