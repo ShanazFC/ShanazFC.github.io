@@ -309,6 +309,11 @@ visibility: hidden;
 
   @media (max-width: 768px) {
 
+    body {
+      height: 100%;
+      padding-top:0px;
+    }
+
       .masthead img {
           display: none;
         }
