@@ -246,7 +246,7 @@ visibility: hidden;
     font-family: 'Pacifico', cursive;
     overflow: hidden;
     z-index:10000;
-    margin: 0 auto;
+    margin-top: 70px;
     padding-bottom: 20px;
     margin-bottom: 20px;
   }
