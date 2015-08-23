@@ -103,6 +103,7 @@ section {
 .masthead {
   background-color: white;
   height: 640px;
+  margin-top: 75px;
 }
 
 .masthead img {
@@ -113,6 +114,8 @@ section {
   border-radius: 20px;
   margin-left: 30px;
   margin-top: 20px;
+  box-shadow: 0 0 8px 8px white inset;
+
 }
 
 
@@ -121,6 +124,9 @@ h1 {
   font-size: 4em;
   text-shadow: 1px 1px 0px #ededed, 4px 4px 0px rgba(0,0,0,0.15);
   padding-bottom: 20px;
+  margin-left: 50px;
+
+
 }
 strong {
   text-decoration: underline;
@@ -128,10 +134,16 @@ strong {
 ul {
   list-style: none;
 }
+
+.adjust {
+  margin-left: 50px;
+}
+
 li {
   font-family: 'Rancho', Helvetica, sans-serif;
   color: #2b2b2b;
   font-size: 2em;
+
 }
 
 .lead {
@@ -209,8 +221,8 @@ h2 {
 .panel-thumbnail img {
    margin-left: auto;
     margin-right: auto;
-    height: 300px;
-    width: 400px;
+    height: 200px;
+    width: 300px;
 }
 
 .panel-thumbnail:hover {
