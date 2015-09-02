@@ -241,14 +241,35 @@ h2 {
   color:black;
 }
 
+/*Index customization*/
+
+
+
+.index_lander {
+  margin-top: 80px;
+}
+
+.links {
+  margin: 0 auto;
+  text-align: right;
+}
+
+
 /* // Landing page customization //  */
 
+
+.lander {
+    text-align: center;
+    margin: 0 auto;
+}
 .lander img {
   max-height: 200px;
   border-radius: 20px;
   margin-left: 30px;
   margin-top: 20px;
+
 }
+
 
 .hidden{
 visibility: hidden;
