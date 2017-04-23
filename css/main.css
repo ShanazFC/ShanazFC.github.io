@@ -94,7 +94,7 @@ section {
 }
 
 
-/* Masthead Customization */
+/* General Customization */
 
 .masthead {
   background-color: white;
@@ -119,7 +119,11 @@ h1 {
   text-shadow: 1px 1px 0px #ededed, 4px 4px 0px rgba(0,0,0,0.15);
   padding-bottom: 20px;
   margin-left: 50px;
+}
 
+p {
+  font-family: georgia;
+}
 
 }
 strong {
@@ -141,10 +145,6 @@ li {
 
 }
 
-.lead {
-  font-size: 2em;
- font-family: georgia;
-}
 
 
 
@@ -177,7 +177,7 @@ li {
   height: 50px;
 }
 
-.text-center {
+.rancho {
   font-family: 'Rancho', cursive;
 }
 
@@ -253,15 +253,19 @@ h2 {
 }
 
 
-/* // Landing page customization //  */
-
-
-
 .selfie {
   max-height: 200px;
   border-radius: 30px;
   margin-left: 30px;
   margin-top: 20px;
+}
+
+
+.selfie_2 {
+  max-height: 300px;
+  border-radius: 30px;
+  margin-left: 30px;
+  margin-top: 50px;
 }
 
 
@@ -285,7 +289,8 @@ visibility: hidden;
 
   /* customize nav style */
   .navbar-custom {
-      background-color: #0b78ff;
+      background-color: #99ccff;
+
   	  font-weight:700;
       border-width:0;
   }
