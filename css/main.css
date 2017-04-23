@@ -207,6 +207,14 @@ h2 {
     text-align: center;
 }
 
+h3 {
+  font-family: 'Pacifico', cursive;
+  /*display: block;*/
+  margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
 .bg-4 {
   background: url('../images/coding.jpg') center fixed;
   background-size: 100%;
@@ -238,7 +246,6 @@ h2 {
 .gallery {
   padding-top: 60px;
   font-size: 4em;
-
 }
 
 
@@ -263,9 +270,10 @@ h2 {
 
 .selfie_2 {
   max-height: 300px;
+  max-width: 300px;
   border-radius: 30px;
   margin-left: 30px;
-  margin-top: 50px;
+  margin-top: 140px;
 }
 
 
@@ -317,7 +325,7 @@ visibility: hidden;
   }
 
   .divider {
-  	height:50px;
+  	height:100px;
   }
 
   .panel {
@@ -367,6 +375,10 @@ visibility: hidden;
       .masthead img {
           display: none;
         }
+
+.selfie_2 {
+  display: none;
+}
 
       .masthead ul {
         margin-left: -30px;
