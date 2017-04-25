@@ -169,7 +169,6 @@ li {
   border-radius: 20px;
   padding: 20px;
 }
-
 .bg-1 {
   background: url('../images/coding.png') no-repeat center center fixed;
   background-repeat: no-repeat;
@@ -325,7 +324,7 @@ visibility: hidden;
   }
 
   .divider {
-  	height:100px;
+  	height:50px;
   }
 
   .panel {
