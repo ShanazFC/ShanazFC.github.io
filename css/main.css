@@ -238,6 +238,13 @@ h3 {
   margin-right: 30px;
   margin-top: 20px;
 }
+
+.fa:hover {
+    opacity: 0.7;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+
 .glyphicon {
   color:black;
 }
