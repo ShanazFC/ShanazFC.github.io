@@ -161,6 +161,7 @@ li {
 .thumbnail:hover {
     opacity: 0.7;
     filter: alpha(opacity=100); /* For IE8 and earlier */
+    color:#3C84CC;
 }
 
 .aside {
@@ -229,6 +230,7 @@ h3 {
 .panel-thumbnail:hover {
     opacity: 0.7;
     filter: alpha(opacity=100); /* For IE8 and earlier */
+    color:#3C84CC;
 }
 
 .fa {
@@ -240,7 +242,7 @@ h3 {
 }
 
 .links .fa:hover {
-    opacity: 0.7;
+    /*opacity: 0.7;*/
     color: #3C84CC;
     filter: alpha(opacity=100); /* For IE8 and earlier */
 }
@@ -316,9 +318,11 @@ visibility: hidden;
   }
   .navbar-custom  .dropdown-menu li>a:hover {
   	color: #3C84CC;
+    opacity: 0.4;
   }
   .navbar-custom  .navbar-nav li>a:hover, .navbar-nav li .open, .navbar-custom .navbar-nav .active a  {
   	background-color: #3C84CC;
+
   }
   .navbar-custom .navbar-nav>.dropdown>a .caret {
   	border-top-color: #999;
@@ -340,6 +344,12 @@ visibility: hidden;
   .panel {
   	border-width:0;
   }
+  .active-page
+  {
+    background-color:#3C84CC;
+    opacity: 0.8;
+  }
+
 
   /* Mobile Customization -- Personal  */
 
