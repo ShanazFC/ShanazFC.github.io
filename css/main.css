@@ -3,7 +3,7 @@
 html,
 body {
   height: 100%;
-  padding-top:20px;
+  padding:60px;
 }
 
 .row {
@@ -259,6 +259,10 @@ h3 {
   margin-left: 20px;
 }
 
+footer {
+  text-align: center;
+  margin: 20px;
+}
 
 /*Index customization*/
 
