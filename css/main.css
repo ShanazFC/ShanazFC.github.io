@@ -4,6 +4,7 @@ html,
 body {
   height: 100%;
   padding:40px;
+  background: 	white;
 }
 
 .row {
@@ -25,7 +26,7 @@ body {
 /* Set the fixed height of the footer here */
 #footer {
   height: 80px;
-  background-color: #f5f5f5;
+  background-color: 	#f9f9f9;
   margin-top:50px;
   padding-top:20px;
   padding-bottom:20px;
@@ -97,7 +98,7 @@ section {
 /* General Customization */
 
 .masthead {
-  background-color: white;
+  background-color: 	white;
 }
 
 .masthead img {
@@ -139,9 +140,10 @@ ul {
 }
 
 li {
-  font-family: 'Rancho', sans-serif;
+  font-family: georgia, sans-serif;
   color: #2b2b2b;
-  font-size: 2em;
+  font-size: 1.9em;
+  margin-top: 10px;
 
 }
 
@@ -376,6 +378,7 @@ visibility: hidden;
   @media (max-width: 768px) {
     h1 {
       font-size: 3em;
+      margin: 0px;
     }
 
     ul {
@@ -407,7 +410,14 @@ visibility: hidden;
           display: none;
         }
 
+.masthead li {
+  display: none;
+}
 .selfie_2 {
+  display: none;
+}
+
+.yale {
   display: none;
 }
 
