@@ -1,126 +1,24 @@
-/* Basic customization  */
 
-html,
-body {
-  height: 100%;
-  padding:40px;
-  background: 	white;
+/*Header and Intro customization*/
+
+h1 {
+
+  font-family: 'Merriweather', serif;
+  font-weight: 900;
+  font-size: 4em;
+  /* text-shadow: 1px 1px 0px #ededed, 4px 4px 0px rgba(0,0,0,0.15); */
+  padding-bottom: 20px;
+  padding-top: 70px;
 }
 
-.row {
-  margin-left:0px;
-  margin-right:0px;
-}
-
-/* Wrapper for page content to push down footer */
-#wrap {
-  min-height: 100%;
-  height: auto !important;
-  height: 100%;
-  /* Negative indent footer by its height */
-  margin: 0 auto -80px;
-  /* Pad bottom by footer height */
-  padding: 0 0 60px;
-}
-
-/* Set the fixed height of the footer here */
-#footer {
-  height: 80px;
-  background-color: white;
-  margin-top:50px;
-  padding-top:20px;
-  padding-bottom:20px;
-}
-#footer a {
-  color: black;
-  text-decoration: underline;
-}
-
-#wrap > .container {
-  padding: 60px 15px 0;
-}
-.container .credit {
-  margin: 20px 0;
-}
-
-#topNav {
-	z-index:-1;
-}
-
-#nav {
-  width: 100%;
-  position:static;
-  top:-32px;
-}
-
-#nav.affix {
-   position: fixed;
-   top: 0;
-   z-index:10;
-   -webkit-transition: all .6s ease-in-out;
-}
-
-#footer > .container {
-
-}
-
-
-
-.scroll-top {
-   position:fixed;
-   bottom:0;
-   right:6%;
-   z-index:100;
-   background: #f2f3f2;
-   font-size:24px;
-   border-top-left-radius:3px;
-   border-top-right-radius:3px;
-}
-.scroll-top a:link,.scroll-top a:visited {
-  color:#222;
-}
-
-section {
-  color: #ffffff;
-  min-height: 400px;
-  height: auto !important;
-  height: 100%;
-  padding-top:100px;
-  width: 100%;
-}
-
-
-/* General Customization */
-
-.masthead {
-  background-color: 	white;
-}
-
-.masthead img {
-  height: 100%;
-  width: 100%;
+.selfie {
   max-height: 340px;
   max-width: 255px;
   border-radius: 70px;
-
-  margin-top: 20px;
+  padding-left: 40px;
+  padding-top: 20px;
   box-shadow: 0 0 8px 8px white inset;
-
 }
-
-
-h1 {
-  font-family: 'Pacifico', cursive;
-  font-size: 4em;
-  text-shadow: 1px 1px 0px #ededed, 4px 4px 0px rgba(0,0,0,0.15);
-  padding-bottom: 20px;
-  margin-left: 40px;
-}
-
-p {
-  font-family: georgia;
-}
-
 
 ul {
   list-style: none;
@@ -130,198 +28,112 @@ ul {
 li {
   font-family: georgia, sans-serif;
   color: #2b2b2b;
-  font-size: 1.6em;
+  font-size: 1.5em;
   margin-top: 15px;
 
 }
 
-h2 {
-  font-family: 'Pacifico', cursive;
-  /*display: block;*/
-  margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-}
-
-
-.fa {
-  color: #808080;
-  display: inline-block;
+.bullets .fas {
+  padding-right: 20px;
+  color: #1E5999;
   margin-left: 30px;
-  margin-right: 30px;
-  margin-top: 20px;
+  margin-top: 18px;
+  font-size: 1.2em;
 }
 
-.links .fa:hover {
-    opacity: 0.7;
-    color: #3C84CC;
-    filter: alpha(opacity=100); /* For IE8 and earlier */
-}
-
-
-
-footer {
-  text-align: center;
-  margin: 20px;
-}
-
-/*Index customization*/
-
-
-.links {
+.social {
+  padding-top: 30px;
   margin: 0 auto;
   text-align: center;
 }
 
-
-.selfie {
-  max-height: 200px;
-  /*border-radius: 10px;*/
-  margin-left: 20px;
-  margin-top: 20px;
+.social .fab, .social .fas {
+  color: #1E5999;
+  display: inline-block;
+  margin-left: 30px;
+  margin-top: 18px;
+  font-size: 5em;
 }
 
+.social .fab:hover, .social .fas:hover {
+    opacity: 0.7;
+    color: #3C84CC;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+    display:  inline-block;
+}
+
+/*About*/
+h2 {
+  font-family: 'Raleway', sans;
+  text-align: center;
+  font-weight: 600;
+}
+
+p {
+  font-family: georgia;
+  font-size: 1em;
+}
+
+.work_images:first-child {
+  margin-top:75px;
+}
 
 .work_images {
-  max-height: 200px;
-  max-width: 200px;
-  /* border-radius: 30px; */
-  margin-left: 70px;
-  margin-top:40px;
+  max-height: 250px;
+  max-width: 250px;
+  margin-left: 20px;
+  margin-top:70px;
 }
+
+/*Education*/
 
 .yale {
-  max-height: 300px;
-  max-width: 300px;
+  max-height: 200px;
+  max-width: 200px;
   /*border-radius: 30px;*/
-  margin-left: 50px;
-  margin-top: 50px;
+  margin-top: 100px;
 }
 
 
-.hidden{
-visibility: hidden;
+/*Footer*/
+#footer {
+  text-align: center;
 }
 
 
-
-  /* Mobile customization  -- Default */
-
-  @media (min-width: 767px) {
-    .navbar-nav.nav-justified > li{
-        float:none;
-    }
-  }
-
-  .navbar-nav {
-    margin: 1px 1px;
-  }
-
-  /* customize nav style */
-  .navbar-custom {
-      background-color: #808080;
-
-  	  font-weight:700;
-      border-width:0;
-  }
-  .navbar-custom  .navbar-nav>li>a {
-  	color: #FFF;
-  }
-  .navbar-custom  .dropdown-menu li>a:hover {
-  	color: #3C84CC;
-    opacity: 0.4;
-  }
-  .navbar-custom  .navbar-nav li>a:hover, .navbar-nav li .open, .navbar-custom .navbar-nav .active a  {
-  	background-color: #3C84CC;
-
-  }
-  .navbar-custom .navbar-nav>.dropdown>a .caret {
-  	border-top-color: #999;
-  	border-bottom-color: #999;
-  }
-
-  .navbar-collapse.in { /*3.0.2 bug workaround*/
-      overflow-y: visible;
-  }
-
-  .navbar-toggle {
-  	outline:0;
-  }
-
-  .divider {
-  	height:50px;
-  }
-
-  .panel {
-  	border-width:0;
-  }
-  .active-page
-  {
-    background-color:#3C84CC;
-    opacity: 0.8;
-  }
-
-
-  /* Mobile Customization -- Personal  */
-
-@media (min-width: 768px) {
-  .divider h2 {
-    display: none
-  }
-}
-
-
-
+/*Mobile Styling*/
   @media (max-width: 1000px) {
     h1 {
-      font-size: 3em;
-      margin: 0px;
+      font-size: 4em;
     }
 
-    ul {
-      font-size: 0.75em;
+    .selfie {
+        display: none;
+        }
+
+    .bullets {
+      display: none;
+        }
+
+    .social {
+      font-size: 1.2em;
       text-align: center;
     }
 
-    links {
-      font-size: 1em;
+    .work_images {
+      display: none;
     }
 
-  .index_lander {
-  display: none;
-  }
-
-    body {
-      height: 100%;
-      padding-top:0px;
+    .yale {
+      display: none;
     }
 
-      .masthead img {
-          display: none;
-        }
-
-.masthead li {
-  display: none;
-}
-.work_images {
-  display: none;
-}
-
-.yale {
-  display: none;
-}
-
-      .masthead ul {
-        margin-left: -30px;
-      }
-
-      .masthead i {
-        padding: 0px;
-        margin: 10px;
-      }
-
-
-
-
-
   }
+
+/* Colors:
+Dark blue: #1E5999
+Medium Blue: #3E9FE0
+Light Blue: #8fbfe0
+Grey: #97ABB1
+
+*/
