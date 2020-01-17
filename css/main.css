@@ -1,5 +1,72 @@
 
-/*Header and Intro customization*/
+/*Background Color Styling*/
+
+body {
+  background-color: white;
+}
+
+.hero {
+  background-color: white;
+  height: 100vh;
+}
+
+#about {
+  background-color: white;
+}
+
+#education {
+  background-color: white;
+}
+
+
+hr {
+  border: .25em solid #97ABB1;
+  border-radius: 2px;
+}
+
+
+
+/*Selfie styling - swap on hover */
+
+
+/* Make the container relative */
+.swap-on-hover {
+  position: relative;
+	margin:  0 auto;
+  max-height: 340px;
+  max-width: 255px;
+  padding-left: 40px;
+  padding-top: 20px;
+}
+
+/* Select the image and make it absolute to the container */
+.swap-on-hover img {
+  position: absolute;
+  /* top:0; */
+  /* left:0; */
+  border-radius: 70px;
+	overflow: hidden;
+	/* Sets the width and height for the images*/
+  max-height: 240px;
+  max-width: 255px;
+}
+
+/*
+	We set z-index to be higher than the back image, so it's alwyas on the front.
+We give it an opacity leaner to .25s, that way when we hover we will get a nice fading effect.
+*/
+.swap-on-hover .swap-on-hover__front-image {
+  z-index: 9999;
+  transition: opacity .5s linear;
+  cursor: pointer;
+}
+
+/* When we hover the figure element, the block with .swap-on-hover, we want to use > so the front-image is going to have opacity of 0, which means it will be hidden, to the back image will show */
+.swap-on-hover:hover > .swap-on-hover__front-image{
+  opacity: 0;
+}
+
+/*Header/Bullets Section*/
 
 h1 {
 
@@ -11,22 +78,13 @@ h1 {
   padding-top: 70px;
 }
 
-.selfie {
-  max-height: 340px;
-  max-width: 255px;
-  border-radius: 70px;
-  padding-left: 40px;
-  padding-top: 20px;
-  box-shadow: 0 0 8px 8px white inset;
-}
-
 ul {
   list-style: none;
 }
 
 
 li {
-  font-family: georgia, sans-serif;
+  font-family: Merriweather, sans-serif;
   color: #2b2b2b;
   font-size: 1.5em;
   margin-top: 15px;
@@ -70,7 +128,7 @@ h2 {
 }
 
 p {
-  font-family: georgia;
+  font-family: Merriweather;
   font-size: 1em;
 }
 
@@ -79,10 +137,10 @@ p {
 }
 
 .work_images {
-  max-height: 250px;
-  max-width: 250px;
-  margin-left: 20px;
-  margin-top:70px;
+  max-height: 200px;
+  max-width: 200px;
+  margin-left: 10px;
+  margin-top:60px;
 }
 
 /*Education*/
@@ -98,8 +156,9 @@ p {
 /*Footer*/
 #footer {
   text-align: center;
+  margin-bottom: 30px;
+  font-size: 0.75em;
 }
-
 
 /*Mobile Styling*/
   @media (max-width: 1000px) {

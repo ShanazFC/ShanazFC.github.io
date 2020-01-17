@@ -43,7 +43,7 @@
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="container">
-
+  <section class="hero">
     <header> <!-- header -->
       <div class="row">
         <h1>Shanaz Chowdhery</h1>
@@ -52,14 +52,18 @@
 
     <div class="row">
       <div class="four columns">
-        <img src="images/selfie.jpg" class="selfie" alt="self">
+        <!-- <img src="images/selfie.jpg" class="selfie" alt="self"> -->
+        <figure class="swap-on-hover  ">
+         <img  class="swap-on-hover__front-image" src="images/selfie.jpg"/>
+         <img class="swap-on-hover__back-image" src="images/selfie2.png"/>
+        </figure>
       </div>
       <div class="eight columns">
         <ul class="bullets">
-                 <li><i class="fas fa-briefcase"></i>Chief of Staff - Vemo Education</li>
-                 <li><i class="fas fa-graduation-cap"></i>B.A. in Sociology - Yale</li>
-                 <li><i class="fas fa-check"></i>Productivity Enthusiast</li>
-                 <li><i class="fas fa-heart"></i>Education, Efficiency, & Game Theory</li>
+                 <li><i class="fas fa-briefcase"></i><strong>Chief of Staff</strong> - Vemo Education</li>
+                 <li><i class="fas fa-graduation-cap"></i>B.A. in <strong>Sociology</strong> - Yale</li>
+                 <li><i class="fas fa-check"></i><strong>Productivity</strong> Enthusiast</li>
+                 <li><i class="fas fa-heart"></i>Education, <strong>Efficiency</strong>, & Game Theory</li>
            </ul> <!--bullets end -->
       </div>
     </div>
@@ -74,8 +78,9 @@
             <a href="https://www.codepen.io/ShanazFC/" target="_blank"><i class="fab fa-codepen"></i></a>
             <a href="https://www.instagram.com/shanazfc/" target="_blank"><i class="fab fa-instagram"></i></a>
             <a href="mailto:shanazfc@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
-          </div>  <!--socal end -->
+        </div>  <!--socal end -->
     </div>
+  </section> <!--hero end -->
     <hr>
     <div class="row" id="about">
       <div class="nine columns">
@@ -83,12 +88,13 @@
             <p>I firmly believe that education is the strongest vehicle of economic mobility, having experienced its  transformative power firsthand as the first member in my entire family to attend college. After graduating from Yale, I became a Teach For America corps member and taught 5th and 7th-grade math in Ward 8 of Washington, DC. </p>
             <p> From 2015 to 2018, I served as the Regional Director for General Assembly in Washington, DC, empowering thousands of students to pursue the work they love through practical skills-based education. I strategized for scale and expansion while overseeing daily operations: marketing, admissions, classroom experience, instructional quality, and student outcomes. Prior to becoming the Regional Director, I worked as an Admissions Producer and Admissions Manager and obsessed over building empathetic consultative sales teams, optimizing sales funnels, and finding sales operations efficiencies.</p>
             <p>In 2018, I left General Assembly to join Vemo Education as a General Manager. I work with non-traditional education institutions to develop and oversee Income Share Agreement programs that help increase enrollment, equalize access to education, and align incentives between schools and students. In 2019, I was promoted to Chief of Staff. I work alongside the Vemo team to identify + execute strategic initiatives and oversee the operational rhythm of the business.</p>
-            <p> Previous workplaces also include: Emily's List, King's Dominion, Kumon, and Yale.</p>
+            <p>When I'm not obsessing about income share agreements, you can find me working to close the digital divide as a Board Member at <a href="byteback.org" target="_blank">Byte Back</a>  and working to promote economic mobility via the Volunteer Leadership Board for <a href="streetwisepartners.org">Streetwise Partners</a>.</p>
         </div>
         <div class="three columns">
           <img src="images/tfa.png" class="work_images" alt="Teach for America Logo">
           <img src="images/ga_cog.png" class="work_images" alt="GA Cog">
           <img src="images/vemo.png" class="work_images" alt="Vemo Logo">
+          <img src="images/byteback.png" class="work_images" alt="Byte Back Logo">
         </div>
       </div> <!--about section end -->
       <hr>
@@ -104,10 +110,14 @@
       </div>
     </div> <!--education section end -->
     <hr>
+    <div class="row" id="footer">
+    <footer>
+            <!--Not sure what to put here so blank for now.-->
+    </footer>
+
   </div> <!--container end -->
 
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
-<footer id="footer">Made with &hearts; from <a href="https://getskeleton.com/ alt="Skeleton Link"">Skeleton</a>.</footer>
 </html>
